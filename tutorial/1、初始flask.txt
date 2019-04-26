@@ -1,0 +1,23 @@
+﻿1、pipenv run python hello.py  
+不显式的激活虚拟环境即可在当前项目的目录环境中执行命令
+
+2、pipenv shell 激活虚拟环境
+
+3、pipenv install
+
+1.2.1 创建程序实例
+
+1.2.2 注册路由就是让URL与函数建立关联，路由负责URL和函数之间的映射，而这个函数称为视图函数(view funciton)
+
+	1、为视图绑定多个URL
+	@app.route('/hi')
+	@app.route('/hello')
+	def say_hello():
+		return '<h1>Hello, Flask!</h1>'
+
+1.3.1 自动发现程序实例
+	linux：	export FLASK_APP=hello
+	window：set FLASK_APP = hello
+
+1.3.1 ②管理环境变量
+	

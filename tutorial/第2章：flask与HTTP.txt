@@ -1,0 +1,30 @@
+﻿第2章：flask与HTTP
+
+2.2 HTTP请求
+request message
+response message
+
+请求报文、响应报文
+
+	2.2.3 在Flask中处理请求
+	1、路由匹配，程序实例中存储了一个路由表，flask routes,app.url_map
+	2、设置监听的HTTP方法，
+	
+	2.2.4 请求钩子
+	需要对请求进行预处理和后处理，这时就需要用到请求钩子(hook)他们用来注册在请求处理的不同阶段执行的处理函数
+
+2.3 HTTP响应
+
+	2.3.1 响应报文
+	2.3.2 在Flask中生成响应码
+		1、重定向：redirect()
+		2丶错误响应 abort()
+	2.3.3 响应格式，如果想使用其他MIME类型，
+		make_response()
+		json.dumps()
+		jsonify()
+	2.3.4 cookie
+		response.set_cookie()
+	2.3.5 session
+	
+		

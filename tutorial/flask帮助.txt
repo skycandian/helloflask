@@ -1,0 +1,22 @@
+7.1项目结构
+
+|-flasky
+  |-app/
+    |-templates/
+    |-static/
+    |-main/
+      |-__init__.py
+      |-errors.py
+      |-forms.py
+      |-views.py
+    |-__init__.py
+    |-email.py
+    |-models.py
+  |-migrations	数据库迁移脚本
+  |-tests/	单元测试
+    |-__inin__.py
+    |-test*.py
+  |-venv/	虚拟环境
+  |-requirements.py	列出所有依赖包，便于在其他电脑生成
+  |-config.py	存储配置
+  |-manage.py	用于启动程序及其他的程序任务
